@@ -1,0 +1,15 @@
+La realidad es que si hubiésemos aplicado el “Data Management”, muchas de las acciones que hemos
+tenido que realizar nos las hubiésemos evitado porque deberían estar controladas de otra forma.
+Explica qué habrías hecho diferente centrándote en las “patas”:
+? Data Quality
+Nota: Además de las obvias que nos han salido al crear ODS que hay que describirlas, ¿se te ocurre alguna otra nomalización?
+? Master Data
+? Data Modeling & Design (me refiero a cómo están definidas las tablas en origen)
+
+
+OPCIONAL: ¿Aconsejarías algún cambio en los sistemas origen extra teniendo en cuenta el resto de
+disciplinas del Data Governance?
+
+
+OPCIONAL++: Utilizando alguna herramienta del mercado o inventándote un modelo en BBDD genera la
+trazabilidad de la información (Data Governance).
