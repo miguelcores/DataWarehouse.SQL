@@ -1,0 +1,4 @@
+Mis mandamientos son los siguientes:
+1. Mandar todo a STAGE tal y cómo está.
+2. Una vez allí, uno se para el tiempo necesario a planear la arquitectura de tanto de ODS y DDS.
+3.
