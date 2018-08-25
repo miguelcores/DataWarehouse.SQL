@@ -3,7 +3,7 @@ los separo en dos tablas distintas para ser más estricta con la jerarquía:
 PAIS ? ESTADOS ? CIUDADES ? DIRECCIONES
 
 R- Esto se debe a que aunque parezca mentira hay diferentes estados con ciudades que tienen igual nombre. 
-Por ello se unen los dos campos para filtrar posibles confusiones y no hay error alguno.
+Por ello se unen los dos campos para filtrar posibles confusiones y no haya error alguno.
 
 P- OPCIONAL: ¿Serías capaz de separar el campo DE_DIRECCION de la tabla de direcciones en dos
 campos: NOMBRE_VIA y NUM_VIA?
