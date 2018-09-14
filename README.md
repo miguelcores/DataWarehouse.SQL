@@ -1,6 +1,5 @@
 # DATAWAREHOUSE KC_TELECOM
 
-Practica de modelo clásico datawarehouse para compañia con CRM, IVR y FCT.
-ODS, y más.
+Practica de modelo clásico datawarehouse para compañia con CRM, IVR, ODS y FCT y más.
 
 
