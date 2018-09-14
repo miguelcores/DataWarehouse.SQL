@@ -1,0 +1,36 @@
+P- ¿Por qué en el modelo de DIRECCIONES dejo en la misma tabla las CIUDADES y los ESTADOS y no los separo en dos tablas distintas para ser más estricta con la jerarquía: PAIS ? ESTADOS ? CIUDADES ? DIRECCIONES
+
+R- Esto se debe a que aunque parezca mentira hay diferentes estados con ciudades que tienen igual nombre. 
+Por ello se unen los dos campos para filtrar posibles confusiones y no haya error alguno.
+
+** OPCIONAL: ¿Serías capaz de separar el campo DE_DIRECCION de la tabla de direcciones en dos
+campos: NOMBRE_VIA y NUM_VIA?
+
+R- Lo he estado intentando jugando con el sigiente codigo para separar los dos tipos de datos:
+
+/*PARA COGER PARTE NOMBRE_VIA:*/
+NOMBRE_CADA_VIA = CASE CONVERT(TRIM(DE_DIRECCION))!=0 THEN
+SUBSTRING(TRIM(DE_DIRECCION), LENGTH(CONVERT(TRIM(DE_DIRECCION)), UNSIGNED), LENGHT(TRIM(DE_DIRECCION)))
+ELSE DE_DIRECCION;
+
+/*PARA COGER NUM_VIA:*/
+NUMERO_CADA_VIA = CASE CONVERT(TRIM(DE_DIRECCION))!=0 THEN CONVERT(TRIM(DE_DIRECCION)) ELSE NULL;
+
+INTRO: La realidad es que si hubiésemos aplicado el “Data Management”, muchas de las acciones que hemos tenido que realizar nos las hubiésemos evitado porque deberían estar controladas de otra forma.
+
+P- Explica qué habrías hecho diferente centrándote en alguna de las “patas”:
+
+R- Data Quality: Hubiera exigido que todas las fechas vinieran en el mismo formato, y todos los datos texto en mayusculas.
+
+P- ¿Cuales son tus mandamientos para crear un datawarehouse en general?
+
+R- Mis mandamientos serían los siguientes:
+1. Mandar todo a STAGE tal y cómo está.
+2. Una vez allí, pararme el tiempo necesario a planear la arquitectura (tanto de ODS y DDS).
+
+P- ¿Nivel de SQL antes y después?
+
+R- He aprendido una barbaridad teniendo en cuenta que no tenia ni idea de SQL antes de la practica.
+Concretando: 
+- NIVEL ANTES: mas perdido que un muelle en las escaleras de hogwarts.
+- NIVEL DESPUES: dejar que las queries se acerquen a mí.

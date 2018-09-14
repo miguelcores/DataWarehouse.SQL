@@ -1,7 +1,0 @@
-¿Nivel de SQL antes y después?
-He aprendido una barbaridad teniendo en cuenta que no tenia ni idea de SQL antes de la practica.
-Concretando: 
-NIVEL ANTES: mas perdido que un muelle en las escaleras de hogwarts.
-NIVEL DESPUES: dejar que las queries se acerquen a mí.
-
-
